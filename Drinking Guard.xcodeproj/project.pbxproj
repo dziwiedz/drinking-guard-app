@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22B1F2E225816370001E59CC /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1F2E125816370001E59CC /* MainTabBar.swift */; };
+		22B1F2E425816378001E59CC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1F2E325816378001E59CC /* HomeView.swift */; };
+		22B1F2E62581637F001E59CC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1F2E52581637F001E59CC /* SettingsView.swift */; };
+		22B1F2E8258163C8001E59CC /* DrinkingForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B1F2E7258163C8001E59CC /* DrinkingForm.swift */; };
+		22E5EE1324AA7D2700C4D9C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E5EE1224AA7D2700C4D9C1 /* AppDelegate.swift */; };
+		22E5EE1524AA7D2700C4D9C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E5EE1424AA7D2700C4D9C1 /* SceneDelegate.swift */; };
+		22E5EE1724AA7D2700C4D9C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E5EE1624AA7D2700C4D9C1 /* ContentView.swift */; };
+		22E5EE1924AA7D2C00C4D9C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22E5EE1824AA7D2C00C4D9C1 /* Assets.xcassets */; };
+		22E5EE1C24AA7D2C00C4D9C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22E5EE1B24AA7D2C00C4D9C1 /* Preview Assets.xcassets */; };
+		22E5EE1F24AA7D2C00C4D9C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22E5EE1D24AA7D2C00C4D9C1 /* LaunchScreen.storyboard */; };
+		22E5EE2A24AA7D2C00C4D9C1 /* Drinking_GuardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E5EE2924AA7D2C00C4D9C1 /* Drinking_GuardTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22E5EE2624AA7D2C00C4D9C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22E5EE0724AA7D2700C4D9C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22E5EE0E24AA7D2700C4D9C1;
+			remoteInfo = "Drinking Guard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22B1F2E125816370001E59CC /* MainTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
+		22B1F2E325816378001E59CC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		22B1F2E52581637F001E59CC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		22B1F2E7258163C8001E59CC /* DrinkingForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkingForm.swift; sourceTree = "<group>"; };
+		22E5EE0F24AA7D2700C4D9C1 /* Drinking Guard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drinking Guard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22E5EE1224AA7D2700C4D9C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22E5EE1424AA7D2700C4D9C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		22E5EE1624AA7D2700C4D9C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		22E5EE1824AA7D2C00C4D9C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22E5EE1B24AA7D2C00C4D9C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22E5EE1E24AA7D2C00C4D9C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22E5EE2024AA7D2C00C4D9C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22E5EE2524AA7D2C00C4D9C1 /* Drinking GuardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Drinking GuardTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22E5EE2924AA7D2C00C4D9C1 /* Drinking_GuardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drinking_GuardTests.swift; sourceTree = "<group>"; };
+		22E5EE2B24AA7D2C00C4D9C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22E5EE0C24AA7D2700C4D9C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E5EE2224AA7D2C00C4D9C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22B1F2DD2581634C001E59CC /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				22B1F2E02581635C001E59CC /* Settings */,
+				22B1F2DF25816357001E59CC /* Home */,
+				22B1F2DE25816353001E59CC /* Tabbar */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		22B1F2DE25816353001E59CC /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				22B1F2E125816370001E59CC /* MainTabBar.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		22B1F2DF25816357001E59CC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				22B1F2E325816378001E59CC /* HomeView.swift */,
+				22B1F2E7258163C8001E59CC /* DrinkingForm.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		22B1F2E02581635C001E59CC /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				22B1F2E52581637F001E59CC /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		22B1F2E9258165E7001E59CC /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				22E5EE1424AA7D2700C4D9C1 /* SceneDelegate.swift */,
+			);
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		22E5EE0624AA7D2700C4D9C1 = {
+			isa = PBXGroup;
+			children = (
+				22E5EE1124AA7D2700C4D9C1 /* Drinking Guard */,
+				22E5EE2824AA7D2C00C4D9C1 /* Drinking GuardTests */,
+				22E5EE1024AA7D2700C4D9C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22E5EE1024AA7D2700C4D9C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22E5EE0F24AA7D2700C4D9C1 /* Drinking Guard.app */,
+				22E5EE2524AA7D2C00C4D9C1 /* Drinking GuardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22E5EE1124AA7D2700C4D9C1 /* Drinking Guard */ = {
+			isa = PBXGroup;
+			children = (
+				22B1F2E9258165E7001E59CC /* Scene */,
+				22B1F2DD2581634C001E59CC /* Modules */,
+				22E5EE1224AA7D2700C4D9C1 /* AppDelegate.swift */,
+				22E5EE1624AA7D2700C4D9C1 /* ContentView.swift */,
+				22E5EE1824AA7D2C00C4D9C1 /* Assets.xcassets */,
+				22E5EE1D24AA7D2C00C4D9C1 /* LaunchScreen.storyboard */,
+				22E5EE2024AA7D2C00C4D9C1 /* Info.plist */,
+				22E5EE1A24AA7D2C00C4D9C1 /* Preview Content */,
+			);
+			path = "Drinking Guard";
+			sourceTree = "<group>";
+		};
+		22E5EE1A24AA7D2C00C4D9C1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				22E5EE1B24AA7D2C00C4D9C1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		22E5EE2824AA7D2C00C4D9C1 /* Drinking GuardTests */ = {
+			isa = PBXGroup;
+			children = (
+				22E5EE2924AA7D2C00C4D9C1 /* Drinking_GuardTests.swift */,
+				22E5EE2B24AA7D2C00C4D9C1 /* Info.plist */,
+			);
+			path = "Drinking GuardTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22E5EE0E24AA7D2700C4D9C1 /* Drinking Guard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22E5EE2E24AA7D2C00C4D9C1 /* Build configuration list for PBXNativeTarget "Drinking Guard" */;
+			buildPhases = (
+				22E5EE0B24AA7D2700C4D9C1 /* Sources */,
+				22E5EE0C24AA7D2700C4D9C1 /* Frameworks */,
+				22E5EE0D24AA7D2700C4D9C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Drinking Guard";
+			productName = "Drinking Guard";
+			productReference = 22E5EE0F24AA7D2700C4D9C1 /* Drinking Guard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22E5EE2424AA7D2C00C4D9C1 /* Drinking GuardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22E5EE3124AA7D2C00C4D9C1 /* Build configuration list for PBXNativeTarget "Drinking GuardTests" */;
+			buildPhases = (
+				22E5EE2124AA7D2C00C4D9C1 /* Sources */,
+				22E5EE2224AA7D2C00C4D9C1 /* Frameworks */,
+				22E5EE2324AA7D2C00C4D9C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22E5EE2724AA7D2C00C4D9C1 /* PBXTargetDependency */,
+			);
+			name = "Drinking GuardTests";
+			productName = "Drinking GuardTests";
+			productReference = 22E5EE2524AA7D2C00C4D9C1 /* Drinking GuardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22E5EE0724AA7D2700C4D9C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = niedzwiedz;
+				TargetAttributes = {
+					22E5EE0E24AA7D2700C4D9C1 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					22E5EE2424AA7D2C00C4D9C1 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 22E5EE0E24AA7D2700C4D9C1;
+					};
+				};
+			};
+			buildConfigurationList = 22E5EE0A24AA7D2700C4D9C1 /* Build configuration list for PBXProject "Drinking Guard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22E5EE0624AA7D2700C4D9C1;
+			productRefGroup = 22E5EE1024AA7D2700C4D9C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22E5EE0E24AA7D2700C4D9C1 /* Drinking Guard */,
+				22E5EE2424AA7D2C00C4D9C1 /* Drinking GuardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22E5EE0D24AA7D2700C4D9C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E5EE1F24AA7D2C00C4D9C1 /* LaunchScreen.storyboard in Resources */,
+				22E5EE1C24AA7D2C00C4D9C1 /* Preview Assets.xcassets in Resources */,
+				22E5EE1924AA7D2C00C4D9C1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E5EE2324AA7D2C00C4D9C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22E5EE0B24AA7D2700C4D9C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B1F2E225816370001E59CC /* MainTabBar.swift in Sources */,
+				22E5EE1324AA7D2700C4D9C1 /* AppDelegate.swift in Sources */,
+				22E5EE1524AA7D2700C4D9C1 /* SceneDelegate.swift in Sources */,
+				22B1F2E62581637F001E59CC /* SettingsView.swift in Sources */,
+				22B1F2E425816378001E59CC /* HomeView.swift in Sources */,
+				22E5EE1724AA7D2700C4D9C1 /* ContentView.swift in Sources */,
+				22B1F2E8258163C8001E59CC /* DrinkingForm.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E5EE2124AA7D2C00C4D9C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22E5EE2A24AA7D2C00C4D9C1 /* Drinking_GuardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22E5EE2724AA7D2C00C4D9C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22E5EE0E24AA7D2700C4D9C1 /* Drinking Guard */;
+			targetProxy = 22E5EE2624AA7D2C00C4D9C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22E5EE1D24AA7D2C00C4D9C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22E5EE1E24AA7D2C00C4D9C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22E5EE2C24AA7D2C00C4D9C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22E5EE2D24AA7D2C00C4D9C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22E5EE2F24AA7D2C00C4D9C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Drinking Guard/Preview Content\"";
+				DEVELOPMENT_TEAM = 4Z3292JC5M;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Drinking Guard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.niedzwiedz.Drinking-Guard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22E5EE3024AA7D2C00C4D9C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Drinking Guard/Preview Content\"";
+				DEVELOPMENT_TEAM = 4Z3292JC5M;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Drinking Guard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.niedzwiedz.Drinking-Guard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22E5EE3224AA7D2C00C4D9C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Z3292JC5M;
+				INFOPLIST_FILE = "Drinking GuardTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.niedzwiedz.Drinking-GuardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drinking Guard.app/Drinking Guard";
+			};
+			name = Debug;
+		};
+		22E5EE3324AA7D2C00C4D9C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Z3292JC5M;
+				INFOPLIST_FILE = "Drinking GuardTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.niedzwiedz.Drinking-GuardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Drinking Guard.app/Drinking Guard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22E5EE0A24AA7D2700C4D9C1 /* Build configuration list for PBXProject "Drinking Guard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E5EE2C24AA7D2C00C4D9C1 /* Debug */,
+				22E5EE2D24AA7D2C00C4D9C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22E5EE2E24AA7D2C00C4D9C1 /* Build configuration list for PBXNativeTarget "Drinking Guard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E5EE2F24AA7D2C00C4D9C1 /* Debug */,
+				22E5EE3024AA7D2C00C4D9C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22E5EE3124AA7D2C00C4D9C1 /* Build configuration list for PBXNativeTarget "Drinking GuardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22E5EE3224AA7D2C00C4D9C1 /* Debug */,
+				22E5EE3324AA7D2C00C4D9C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22E5EE0724AA7D2700C4D9C1 /* Project object */;
+}
